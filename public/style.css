@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card-view {
+    display: none;
+    /* Hidden by default, shown for mobile */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .desktop-view {
+        display: none;
+        /* Hide the table while mobile layout  */
+    }
+
+    .card-view {
+        display: block;
+        /* Card view display when mobile view  */
+    }
+}
